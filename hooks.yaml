@@ -1,0 +1,5 @@
+- id: circleci_validate
+  name: Validate CircleCI Config
+  description: Validates CircleCI Config if present
+  language: script
+  entry: circleci_validate.sh
